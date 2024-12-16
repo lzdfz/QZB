@@ -1,0 +1,1 @@
+/home/ros2_alg_bridge/build/fq/rosidl_cmake/rosidl_cmake-extras.cmake

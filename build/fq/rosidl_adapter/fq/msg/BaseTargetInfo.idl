@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/BaseTargetInfo.msg
+// generated code does not contain a copyright notice
+
+
+module fq {
+  module msg {
+    struct BaseTargetInfo {
+      int32 id;
+
+      double percent;
+    };
+  };
+};

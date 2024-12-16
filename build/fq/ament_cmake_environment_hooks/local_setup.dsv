@@ -1,0 +1,4 @@
+source;share/fq/environment/ament_prefix_path.sh
+source;share/fq/environment/library_path.sh
+source;share/fq/environment/path.sh
+source;share/fq/environment/pythonpath.sh

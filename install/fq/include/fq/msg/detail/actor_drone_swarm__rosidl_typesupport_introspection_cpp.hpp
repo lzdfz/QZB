@@ -1,0 +1,1 @@
+/home/ros2_alg_bridge/build/fq/rosidl_typesupport_introspection_cpp/fq/msg/detail/actor_drone_swarm__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,90 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/BasePlaneAttr.msg
+// generated code does not contain a copyright notice
+
+
+module fq {
+  module msg {
+    struct BasePlaneAttr {
+      @verbatim (language="comment", text=
+        " 翼型")
+      string airfoil_type;
+
+      @verbatim (language="comment", text=
+        " 载荷类型")
+      string load_type;
+
+      @verbatim (language="comment", text=
+        " 最小速度")
+      float min_velocity;
+
+      @verbatim (language="comment", text=
+        " 最大速度")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        " 最大加速度")
+      float max_acceleration;
+
+      @verbatim (language="comment", text=
+        " 最大减速度")
+      float max_deceleration;
+
+      @verbatim (language="comment", text=
+        " 最大滚转角度")
+      float max_roll_angle;
+
+      @verbatim (language="comment", text=
+        " 最大俯仰角度")
+      float max_pitch_angle;
+
+      @verbatim (language="comment", text=
+        " 滚转速率")
+      float roll_rate;
+
+      @verbatim (language="comment", text=
+        " 俯仰速率")
+      float pitch_rate;
+
+      @verbatim (language="comment", text=
+        " 最大滚转角度对应的偏航速率")
+      float yaw_rate_to_max_roll;
+
+      @verbatim (language="comment", text=
+        " 高度限制")
+      float limit_height;
+
+      @verbatim (language="comment", text=
+        " 生命值")
+      int32 health_point;
+
+      @verbatim (language="comment", text=
+        " 伤害值")
+      int32 damage_value;
+
+      @verbatim (language="comment", text=
+        " 侦察半径")
+      float reconnaissance_radius;
+
+      @verbatim (language="comment", text=
+        " 侦察角度")
+      float reconnaissance_angle;
+
+      @verbatim (language="comment", text=
+        " 炸弹载荷")
+      int32 bombload;
+
+      @verbatim (language="comment", text=
+        " 炸弹射程 m")
+      float bomb_range;
+
+      @verbatim (language="comment", text=
+        " 炸弹速度 m/s")
+      float bomb_velocity;
+
+      @verbatim (language="comment", text=
+        " 炸弹冷却时间 s")
+      float bomb_cold_down_time;
+    };
+  };
+};

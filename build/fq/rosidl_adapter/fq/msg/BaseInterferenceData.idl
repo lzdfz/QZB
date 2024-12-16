@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/BaseInterferenceData.msg
+// generated code does not contain a copyright notice
+
+#include "fq/msg/BaseTargetInfo.idl"
+
+module fq {
+  module msg {
+    struct BaseInterferenceData {
+      sequence<fq::msg::BaseTargetInfo> targets;
+
+      int32 num;
+    };
+  };
+};

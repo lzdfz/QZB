@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/ActorBuildings.msg
+// generated code does not contain a copyright notice
+
+#include "fq/msg/ActorBuilding.idl"
+#include "fq/msg/Header.idl"
+
+module fq {
+  module msg {
+    struct ActorBuildings {
+      fq::msg::Header header;
+
+      sequence<fq::msg::ActorBuilding> buildings;
+    };
+  };
+};

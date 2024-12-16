@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/ActorDroneSwarm.msg
+// generated code does not contain a copyright notice
+
+#include "fq/msg/BaseAirplaneKinematicsData.idl"
+#include "fq/msg/BaseBaseData.idl"
+#include "fq/msg/BaseInterferenceData.idl"
+#include "fq/msg/BaseLoadData.idl"
+#include "fq/msg/BasePlaneAttr.idl"
+#include "fq/msg/BaseReconnaissanceData.idl"
+
+module fq {
+  module msg {
+    struct ActorDroneSwarm {
+      fq::msg::BaseBaseData base_data;
+
+      fq::msg::BasePlaneAttr attributes;
+
+      fq::msg::BaseAirplaneKinematicsData drone_swarm_kinematics_data;
+
+      fq::msg::BaseLoadData load_data;
+
+      fq::msg::BaseReconnaissanceData reconnaissance_data;
+
+      fq::msg::BaseInterferenceData interference_data;
+    };
+  };
+};

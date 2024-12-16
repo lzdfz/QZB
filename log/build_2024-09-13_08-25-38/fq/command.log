@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_alg_bridge/build/fq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros2_alg_bridge/src/fq -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_alg_bridge/install/fq
+Invoked command in '/home/ros2_alg_bridge/build/fq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros2_alg_bridge/src/fq -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_alg_bridge/install/fq
+Invoking command in '/home/ros2_alg_bridge/build/fq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros2_alg_bridge/build/fq -- -j24 -l24
+Invoked command in '/home/ros2_alg_bridge/build/fq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros2_alg_bridge/build/fq -- -j24 -l24
+Invoking command in '/home/ros2_alg_bridge/build/fq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros2_alg_bridge/build/fq
+Invoked command in '/home/ros2_alg_bridge/build/fq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros2_alg_bridge/build/fq

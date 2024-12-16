@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/ActorEquipment.msg
+// generated code does not contain a copyright notice
+
+#include "fq/msg/BaseBaseData.idl"
+#include "fq/msg/BaseBeInterferenceData.idl"
+#include "fq/msg/BaseBeReconnaissanceData.idl"
+#include "fq/msg/BaseKinematicsData.idl"
+
+module fq {
+  module msg {
+    struct ActorEquipment {
+      fq::msg::BaseBaseData base_data;
+
+      fq::msg::BaseKinematicsData kinematics_data;
+
+      fq::msg::BaseBeReconnaissanceData be_reconnaissance_data;
+
+      fq::msg::BaseBeInterferenceData be_interference_data;
+    };
+  };
+};

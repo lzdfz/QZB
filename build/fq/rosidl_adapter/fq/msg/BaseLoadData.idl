@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/BaseLoadData.msg
+// generated code does not contain a copyright notice
+
+
+module fq {
+  module msg {
+    struct BaseLoadData {
+      @verbatim (language="comment", text=
+        " 载荷数据")
+      int32 remaining_projectiles;
+    };
+  };
+};

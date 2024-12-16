@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/BaseOrientation3D.msg
+// generated code does not contain a copyright notice
+
+
+module fq {
+  module msg {
+    struct BaseOrientation3D {
+      @verbatim (language="comment", text=
+        " degree")
+      double roll;
+
+      @verbatim (language="comment", text=
+        " degree")
+      double pitch;
+
+      @verbatim (language="comment", text=
+        " degree")
+      double yaw;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/ActorControlInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module fq {
+  module msg {
+    struct ActorControlInfo {
+      int32 id;
+
+      @verbatim (language="comment", text=
+        " 目标位置")
+      sequence<geometry_msgs::msg::Point> target_positions;
+
+      @verbatim (language="comment", text=
+        " 运动过程中的最大速度，单位米/秒")
+      float max_velocity;
+
+      @verbatim (language="comment", text=
+        " 目标速度")
+      float target_velocity;
+
+      @verbatim (language="comment", text=
+        " 到达目标位置时的朝向")
+      sequence<float> target_headings;
+    };
+  };
+};

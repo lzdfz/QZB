@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fq/msgs/ActorAirplanes.msg
+// generated code does not contain a copyright notice
+
+#include "fq/msg/ActorAirplane.idl"
+#include "fq/msg/Header.idl"
+
+module fq {
+  module msg {
+    struct ActorAirplanes {
+      fq::msg::Header header;
+
+      sequence<fq::msg::ActorAirplane> airplanes;
+    };
+  };
+};
